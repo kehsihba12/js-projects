@@ -1,0 +1,76 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Beautiful-Full-HD-Photos.jpg);
+    background-size: auto 100%;
+    background-position: cover;
+    opacity: 4;
+    
+}
+
+.flex {
+    color: blue;
+    margin: 20px;
+    filter: 0px 0px 0px black;
+}
+
+.flex:hover{
+    letter-spacing:3px;
+    color: aqua;
+}
+.container {
+    display: flex;
+    width: 90vw;
+
+}
+
+.panel {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    flex : 0.2;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    position: relative;
+    transition: 0.9s ease-in;
+}
+
+.panel h3 {
+    font-size: 24px;
+    position:absolute;
+    bottom: 20px;
+    left:25%;
+    margin: 0;
+    opacity: 0;
+    
+}
+
+.panel.active {
+    flex: 1;
+}
+
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease 0.5s;
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        width: 100vw;
+
+    }
+    .panel:nth-of-type(4),.panel:nth-of-type(5){
+        display: none;
+
+    }
+    
+}
