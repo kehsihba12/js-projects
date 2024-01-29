@@ -1,0 +1,41 @@
+body {
+    background-color: #555;
+}
+
+
+.meme-gen {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.meme-gen img {
+    height: 450px;
+    object-fit: cover;
+
+}
+.meme-gen .generate-meme-btn {
+    padding: 8px;
+    border: none;
+    border-left: 4px solid blue;
+    border-right: 4px solid blue;
+    margin: 24px 0;
+    color: orange;
+    background-color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 400ms ease;
+
+}
+
+.meme-gen .generate-meme-btn:hover {
+    padding: 8px 36px;
+    border-left: 8px solid red;
+    border-right: 8px solid red;
+    letter-spacing: 3px;
+    
+
+}
+
+.meme-gen .meme-author {
+    padding:8px;
+}
