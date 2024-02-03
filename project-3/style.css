@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    color: red;
+    background-color: blue;
+    border-radius: 50px;
+    border: none;
+    font-size: 15 px;
+    cursor: pointer;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+h1{
+    color: orange;
+}
+
+button:hover{ 
+    height: 50px;
+    width: 110px;
+    transition:0.3s ease-in-out;
+    color: black ;
+    background-color: white;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.sub-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.box1{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
